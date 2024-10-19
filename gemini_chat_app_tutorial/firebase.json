@@ -1,0 +1,37 @@
+{
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  },
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "chatbuddy-7fe62",
+          "appId": "1:20838239483:android:0da8396935b022ce91345e",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "chatbuddy-7fe62",
+          "configurations": {
+            "android": "1:20838239483:android:0da8396935b022ce91345e",
+            "ios": "1:20838239483:ios:46cdc3cc3063b27a91345e",
+            "web": "1:20838239483:web:9a7e9294f22b5e7891345e"
+          }
+        }
+      }
+    }
+  }
+}
