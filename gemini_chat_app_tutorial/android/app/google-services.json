@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "20838239483",
+    "project_id": "chatbuddy-7fe62",
+    "storage_bucket": "chatbuddy-7fe62.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:20838239483:android:0da8396935b022ce91345e",
+        "android_client_info": {
+          "package_name": "com.example.gemini_chat_app_tutorial"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB17UaJWFknRLDtA4rG0quGqAVEAHZgHFc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
